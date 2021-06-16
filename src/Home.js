@@ -2,11 +2,12 @@ import React from "react";
 import Button from "./Button";
 import CurrentPromo from "./CurrentPromo";
 import Header from "./Header";
+import "./Css/Home.css";
 
 function Home() {
   return (
     <>
-      <Header headerName="home" />
+      <Header headerName="home" about="Najlepsza kawa w mieście" />
       <CurrentPromo />
       <section id="home">
         <div className="home-site">

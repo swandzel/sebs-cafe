@@ -1,11 +1,11 @@
 import React from "react";
-import "./App.css";
+import "./Css/Navbar.css";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav>
-      <div className="logo">Seb's Cafe</div>
+      <div className="logo"></div>
       <div className="nav-links">
         <ul>
           <Link to="/">

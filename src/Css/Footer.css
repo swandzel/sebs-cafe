@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  background-color: var(--secondary);
+  color: var(--primary);
+  height: 32vh;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+footer > div {
+  border-right: 1px var(--tertiary) solid;
+  padding-right: 1rem;
+  text-align: right;
+}
+
+footer h2 {
+  padding-bottom: 1rem;
+}
+
+.socials-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socials-links i {
+  font-size: 2rem;
+  cursor: pointer;
+}

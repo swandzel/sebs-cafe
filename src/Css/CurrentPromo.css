@@ -1,0 +1,41 @@
+#current-promo {
+  background-color: #fff;
+}
+
+#current-promo h1 {
+  font-family: "Lobster", cursive;
+  color: var(--secondary);
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem 0rem 0rem 0rem;
+}
+.promo-container {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  background-color: #fff;
+  padding: 2rem 0rem;
+}
+.promo {
+  display: flex;
+  height: 40vh;
+  width: 80%;
+  background: url(../Pics/promo1.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.promo-info {
+  padding-left: 5rem;
+}
+
+.promo-info h2 {
+  font-size: 3rem;
+}
+
+.promo-info h3 {
+  font-weight: 200;
+  font-size: 2.5rem;
+}

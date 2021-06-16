@@ -1,0 +1,106 @@
+#home {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-around;
+}
+
+.home-site {
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+.home-cards {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+.container:nth-child(1) {
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.container:nth-child(2) {
+  margin: 0rem 0.5rem 0rem 0.5rem;
+}
+
+.container:nth-child(3) {
+  margin: 0rem 0rem 0rem 1rem;
+}
+
+.home-cards:hover,
+.home-cards:focus {
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.home-caffe {
+  background: url(../Pics/caffe.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home-barists {
+  background: url(../Pics/barists.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home-atmosphere {
+  background: url(../Pics/atmosphere.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.home-cards h1,
+.home-cards p {
+  text-shadow: 5px 14px 6px rgba(0, 0, 0, 0.8);
+}
+
+.home-cards h1 {
+  font-size: 3rem;
+}
+
+.home-cards p {
+  text-align: center;
+  font-size: 1.15rem;
+}
+
+#coffee-container {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2rem 0rem 4rem 0rem;
+}
+
+.our-coffee {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 80%;
+  background: url(../Pics/our-coffee.jpg);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-coffee h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}

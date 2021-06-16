@@ -1,9 +1,8 @@
 import React from "react";
+import "./Css/Header.css";
 
 function Header(props) {
   const bgStyle = {
-    // backgroundColor: "#fff",
-    // backgroundImage: `url(http://localhost:3000/header1.jpg)`,
     backgroundImage: `url(/headers/header-${props.headerName}.jpg)`,
     backgroundPosition: "center",
     backgroundSize: "cover",
@@ -12,11 +11,11 @@ function Header(props) {
   };
 
   return (
-    <div className="home" style={bgStyle}>
+    <div className="header-container" style={bgStyle}>
       <div className="layer">
         <div className="header">
           <div className="title">Seb's Cafe</div>
-          <div className="sub-title">Najlepsza kawa w mieście</div>
+          <div className="sub-title">{props.about}</div>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import "./Css/CurrentPromo.css";
 
 function CurrentPromo() {
   return (

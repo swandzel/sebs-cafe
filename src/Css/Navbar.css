@@ -1,0 +1,38 @@
+nav {
+  display: flex;
+  height: 5rem;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  /* background-color: var(--accent);
+  opacity: 0.9; */
+  color: var(--primary);
+}
+
+.logo {
+  font-family: "Lobster", cursive;
+  font-size: 3rem;
+  text-shadow: 5px 14px 46px rgba(0, 0, 0, 0.56);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  font-size: 1.2rem;
+  font-weight: 700;
+  list-style: none;
+  padding: 0rem 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
