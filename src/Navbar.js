@@ -1,6 +1,6 @@
 import React from "react";
 import "./Css/Navbar.css";
-import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -14,10 +14,13 @@ function Navbar() {
           <Link to="/onas">
             <li>O Nas</li>
           </Link>
+          <Link to="/naszemenu">
+            <li>Nasze Menu</li>
+          </Link>
+          <Link to="/zarezerwujstolik">
+            <li>Zarezerwuj stolik</li>
+          </Link>
 
-          <li>Nasze Kawy</li>
-          <li>Nasze Ciasta</li>
-          <li>Zarezerwuj stolik</li>
           <li>Kontakt</li>
         </ul>
       </div>
