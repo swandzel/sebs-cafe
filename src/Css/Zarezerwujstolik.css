@@ -1,0 +1,46 @@
+#zarezerwuj {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+
+#zarezerwuj h1 {
+  font-family: "Lobster", cursive;
+  color: var(--secondary);
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+.zarezerwuj-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  min-height: 30rem;
+  background-color: var(--secondary);
+  margin-bottom: 4rem;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  background: url(../Pics/zarezerwuj-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.zarezerwuj-container p:nth-child(1) {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  text-shadow: 5px 4px 36px rgba(0, 0, 0, 1);
+}
+
+.zarezerwuj-container p:nth-child(2) {
+  text-shadow: 5px 4px 36px rgba(0, 0, 0, 1);
+}
+
+.zarezerwuj-container p i {
+  padding-right: 0.5rem;
+}

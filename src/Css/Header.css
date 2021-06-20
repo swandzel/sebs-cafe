@@ -22,7 +22,6 @@
 
 .header {
   padding-top: 5rem;
-
   align-self: center;
   text-align: center;
   color: var(--primary);
@@ -30,7 +29,6 @@
 
 .header .title {
   font-family: "Lobster", cursive;
-
   font-size: 10vw;
   /* text-transform: uppercase; */
   font-weight: 700;

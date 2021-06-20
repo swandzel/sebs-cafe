@@ -6,6 +6,7 @@ import Onas from "./Onas";
 import Home from "./Home";
 import Naszemenu from "./Naszemenu";
 import Zarezerwujstolik from "./Zarezerwujstolik";
+import Kontakt from "./Kontakt";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/onas" component={Onas} />
           <Route path="/naszemenu" component={Naszemenu} />
           <Route path="/zarezerwujstolik" component={Zarezerwujstolik} />
+          <Route path="/kontakt" component={Kontakt} />
         </Switch>
       </Router>
       <Footer />

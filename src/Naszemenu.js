@@ -6,7 +6,7 @@ import KawaImg from "./Pics/naszekawy-1.jpg";
 import HerbataImg from "./Pics/naszeherbaty.jpg";
 import CiastaImg from "./Pics/naszeciasta.jpg";
 
-function Naszekawy() {
+function Naszemenu() {
   const coffeeList = [
     { id: 1, name: "Espresso", price: "6.00" },
     { id: 2, name: "Cappuccino", price: "7.00" },
@@ -117,4 +117,4 @@ function Naszekawy() {
   );
 }
 
-export default Naszekawy;
+export default Naszemenu;
