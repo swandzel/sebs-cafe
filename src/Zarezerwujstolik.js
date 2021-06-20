@@ -7,7 +7,7 @@ function Zarezerwujstolik() {
     <>
       <Header headerName="zarezerwuj" about="Zarezerwuj stolik" />
       <section id="zarezerwuj">
-        <h1>Chcesz zarezerwować stolik w Seb's Cafe?</h1>
+        <h1 className="h1-main">Chcesz zarezerwować stolik w Seb's Cafe?</h1>
         <div className="zarezerwuj-container">
           <p>Aby zarezerwować stolik zadzwoń:</p>
           <p>

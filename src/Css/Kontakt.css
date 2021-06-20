@@ -4,14 +4,8 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-}
-
-#kontakt h1 {
-  font-family: "Lobster", cursive;
-  color: var(--secondary);
-  font-size: 4rem;
-  text-align: center;
-  padding: 2rem 0rem;
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .kontakt-container {
@@ -26,15 +20,19 @@
 }
 
 .kontakt-info {
+  min-height: 400px;
   display: flex;
   flex-direction: column;
   flex: 1;
   text-align: center;
+  padding: 0rem 1rem;
 }
 
 .kontakt-photo {
   flex: 1;
   height: 50rem;
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .kontakt-photo img {
@@ -54,4 +52,48 @@
 
 .kontakt-detail p:nth-child(2) {
   font-weight: 200;
+}
+
+@media (max-width: 1000px) {
+  .kontakt-container {
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+
+  .kontakt-photo {
+    order: 1;
+    flex: 1;
+    height: 50rem;
+    width: 100%;
+    /* min-width: 300px; */
+    /* min-height: 300px; */
+  }
+
+  .kontakt-info {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    text-align: center;
+    padding: 5rem 0rem;
+  }
+
+  .kontakt-detail p:nth-child(1) {
+    font-size: 2.25rem;
+  }
+
+  .kontakt-detail p:nth-child(2) {
+    font-size: 1.75rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .kontakt-detail p:nth-child(1) {
+    font-size: 2rem;
+  }
+
+  .kontakt-detail p:nth-child(2) {
+    font-size: 1.25rem;
+  }
 }

@@ -38,7 +38,7 @@ function Naszemenu() {
       <section id="naszemenu">
         {/* SEKCJA PRODUKTÓW START */}
         <div className="sekcja-produktów">
-          <h1>Kawy</h1>
+          <h1 className="h1-main">Kawy</h1>
           <div className="menu-photo">
             <img src={KawaImg} alt="Nasze Kawy" />
           </div>
@@ -63,7 +63,7 @@ function Naszemenu() {
         </div>
         {/* SEKCJA PRODUKTÓW START */}
         <div className="sekcja-produktów">
-          <h1>Herbaty</h1>
+          <h1 className="h1-main">Herbaty</h1>
           <div className="menu-photo">
             <img src={HerbataImg} alt="Nasze Herbaty" />
           </div>
@@ -88,7 +88,7 @@ function Naszemenu() {
         </div>
         {/* SEKCJA PRODUKTÓW START */}
         <div className="sekcja-produktów">
-          <h1>Ciasta</h1>
+          <h1 className="h1-main">Ciasta</h1>
           <div className="menu-photo">
             <img src={CiastaImg} alt="Nasze Ciasta" />
           </div>
@@ -111,8 +111,8 @@ function Naszemenu() {
           <i class="fas fa-coffee"></i>
           <i class="fas fa-coffee"></i>
         </div>
+        <CurrentPromo />
       </section>
-      <CurrentPromo />
     </>
   );
 }

@@ -1,12 +1,9 @@
 .header-container {
   display: flex;
   height: 75vh;
+  min-width: 300px;
+  min-height: 400px;
   width: 100%;
-  /* background: url(./Pics/header1.jpg); */
-  /* background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-attachment: fixed; */
   justify-content: center;
 }
 
@@ -29,13 +26,35 @@
 
 .header .title {
   font-family: "Lobster", cursive;
-  font-size: 10vw;
-  /* text-transform: uppercase; */
+  font-size: 12rem;
   font-weight: 700;
 }
 
 .header .sub-title {
-  font-size: 3vw;
-  /* text-transform: uppercase; */
-  /* font-weight: 700; */
+  /* font-size: 3vw; */
+  font-size: 2.25rem;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    min-height: 400px;
+  }
+
+  .header .title {
+    font-size: 22vw;
+  }
+
+  .header .sub-title {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .header .title {
+    font-size: 24vw;
+  }
+
+  .header .sub-title {
+    font-size: 4vw;
+  }
 }

@@ -6,24 +6,15 @@
   align-items: center;
 }
 
-#onas h1 {
-  font-family: "Lobster", cursive;
-  color: var(--secondary);
-  font-size: 4rem;
-  text-align: center;
-  padding: 2rem 0rem;
-}
-
 .onas-container {
   display: flex;
   width: 80%;
   margin-bottom: 4rem;
-  /* padding-bottom: 2rem; */
 }
 
 .onas-container .photos {
   flex: 1;
-  max-height: 30rem;
+  min-height: 30rem;
   margin-right: 2.5rem;
 }
 
@@ -60,7 +51,7 @@
 
 .onas-container-second .photos {
   flex: 1;
-  max-height: 30rem;
+  min-height: 30rem;
   margin-left: 2.5rem;
 }
 
@@ -78,6 +69,7 @@
   min-height: 30rem;
   justify-content: center;
   margin-right: 2.5rem;
+  padding-top: 2rem;
 }
 
 .onas-container-second .about p {
@@ -86,4 +78,40 @@
   color: var(--primary);
   text-align: right;
   padding: 0rem 2rem 1.5rem 2rem;
+}
+
+@media (max-width: 1200px) {
+  .onas-container {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+  .onas-container .photos {
+    min-height: 30rem;
+    margin: 0 0 4rem 0;
+  }
+
+  .onas-container .about {
+    margin-left: 0rem;
+  }
+
+  .onas-container-second {
+    flex-direction: column;
+    margin-bottom: 4rem;
+  }
+
+  .onas-container-second .photos {
+    order: 1;
+    margin: 0 0 4rem 0;
+  }
+
+  .onas-container-second .about {
+    order: 2;
+    margin-right: 0rem;
+    padding-top: 2rem;
+  }
+
+  .onas-container-second .about p {
+    text-align: left;
+    padding: 0rem 2rem 1.5rem 2rem;
+  }
 }

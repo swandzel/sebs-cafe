@@ -4,14 +4,8 @@
   background-color: #fff;
   justify-content: center;
   align-items: center;
-}
-
-#zarezerwuj h1 {
-  font-family: "Lobster", cursive;
-  color: var(--secondary);
-  font-size: 4rem;
-  text-align: center;
-  padding: 2rem 0rem;
+  min-width: 300px;
+  min-height: 300px;
 }
 
 .zarezerwuj-container {
@@ -43,4 +37,11 @@
 
 .zarezerwuj-container p i {
   padding-right: 0.5rem;
+}
+@media (max-width: 768px) {
+  .zarezerwuj-container p:nth-child(1) {
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+    text-shadow: 5px 4px 36px rgba(0, 0, 0, 1);
+  }
 }

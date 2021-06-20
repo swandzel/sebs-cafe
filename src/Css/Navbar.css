@@ -18,6 +18,7 @@ li {
   font-size: 1.2rem;
   font-weight: 700;
   list-style: none;
+  text-align: center;
 }
 
 nav a {
@@ -49,7 +50,7 @@ nav a:hover:after {
   font-size: 2rem;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 768px) {
   nav {
     justify-content: flex-end;
   }
@@ -62,19 +63,25 @@ nav a:hover:after {
     border-bottom: 2px solid var(--secondary);
   }
 
+  nav a:after {
+    border-bottom: 0px solid var(--primary);
+  }
+
   ul {
     display: flex;
     flex-direction: column;
     background-color: #fff;
     position: absolute;
     width: 100%;
+    min-width: 300px;
     height: calc(75vh - 5rem);
+    min-height: 300px;
     top: 5rem;
     left: -100%;
     transition: var(--anim);
     justify-content: center;
     align-items: center;
-    z-index: 10;
+    z-index: 1000;
   }
 
   ul.active {
@@ -85,12 +92,25 @@ nav a:hover:after {
     font-size: 3rem;
     font-weight: 700;
     list-style: none;
-    padding: 2rem 1rem;
+    padding: 2vh 0rem;
   }
 
   .burger {
     display: block;
-    margin-right: 10%;
+    margin-right: 1.9rem;
     cursor: pointer;
+  }
+
+  @media (max-width: 500px) {
+    ul {
+      min-width: 300px;
+      min-height: calc(400px - 5rem);
+    }
+    li {
+      font-size: 2.5rem;
+      font-weight: 700;
+      list-style: none;
+      padding: 0.5vh 0rem;
+    }
   }
 }

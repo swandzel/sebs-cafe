@@ -2,24 +2,17 @@
   background-color: #fff;
 }
 
-#current-promo h1 {
-  font-family: "Lobster", cursive;
-  color: var(--secondary);
-  font-size: 4rem;
-  text-align: center;
-  padding: 2rem 0rem 0rem 0rem;
-}
 .promo-container {
   display: flex;
   justify-content: center;
-  /* width: 100%; */
   background-color: #fff;
-  padding: 2rem 0rem;
+  padding: 0rem 0rem 2rem 0rem;
 }
 .promo {
   display: flex;
   height: 40vh;
-  width: 80%;
+  min-height: 300px;
+  width: 100%;
   background: url(../Pics/promo1.jpg);
   background-position: center;
   background-size: cover;
@@ -28,14 +21,48 @@
 }
 
 .promo-info {
-  padding-left: 5rem;
+  padding: 0rem 5rem;
 }
 
 .promo-info h2 {
   font-size: 3rem;
+  text-shadow: 5px 4px 6px rgba(0, 0, 0, 0.8);
 }
 
 .promo-info h3 {
   font-weight: 200;
   font-size: 2.5rem;
+  text-shadow: 5px 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1208px) {
+  .promo-info {
+    padding: 0rem 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .promo {
+    min-height: 40vh;
+    min-width: 300px;
+    min-height: 300px;
+    /* width: 80%; */
+    background: url(../Pics/promo1.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .promo-info {
+    padding: 0rem 2rem;
+  }
+
+  .promo-info h2 {
+    font-size: 2rem;
+  }
+
+  .promo-info h3 {
+    font-size: 1.5rem;
+  }
 }

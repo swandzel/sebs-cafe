@@ -9,7 +9,7 @@ function Onas() {
     <>
       <Header headerName="onas" about="Dowiedz się o nas więcej" />
       <section id="onas">
-        <h1>Poznaj naszą filozofię kawy</h1>
+        <h1 className="h1-main">Poznaj naszą filozofię kawy</h1>
         <div className="onas-container">
           <div className="photos">
             <img src={CoffePlantation} alt="Plantacja kawy" />

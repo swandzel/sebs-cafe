@@ -21,3 +21,24 @@ body {
   color: var(--primary);
   background-color: var(--secondary);
 }
+
+.h1-main {
+  font-family: "Lobster", cursive;
+  color: var(--secondary);
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem 0rem 2rem 0rem;
+}
+
+@media (max-width: 600px) {
+  .h1-main {
+    font-size: 3.5rem;
+  }
+
+  @media (max-width: 500px) {
+    .h1-main {
+      font-size: 3rem;
+      padding: 2rem 1rem;
+    }
+  }
+}

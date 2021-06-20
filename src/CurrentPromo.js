@@ -5,7 +5,6 @@ import "./Css/CurrentPromo.css";
 function CurrentPromo() {
   return (
     <section id="current-promo">
-      <h1>Aktualne promocje</h1>
       <div className="promo-container">
         <div className="promo">
           <div className="promo-info">

@@ -8,7 +8,7 @@ function Kontakt() {
     <>
       <Header headerName="kontakt" about="Kontakt" />
       <section id="kontakt">
-        <h1>Skontaktuj się z nami?</h1>
+        <h1 className="h1-main">Skontaktuj się z nami</h1>
         <div className="kontakt-container">
           <div className="kontakt-info">
             <div className="kontakt-detail">
@@ -17,7 +17,11 @@ function Kontakt() {
             </div>
             <div className="kontakt-detail">
               <p>Godziny otwarcia</p>
-              <p>Pon-Czw: 8 - 18, Pt-Ndz: 8 - 22</p>
+              <p>
+                Pon-Czw: 8 - 18
+                <br />
+                Pt-Ndz: 8 - 22
+              </p>
             </div>
             <div className="kontakt-detail">
               <p>Zadzwoń do nas</p>
