@@ -1,6 +1,6 @@
 {
   "name": "site",
-  "homepage": ".",
+  "homepage": "https://sebscafe.netlify.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
