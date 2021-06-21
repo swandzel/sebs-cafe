@@ -74,7 +74,7 @@ nav a:hover:after {
     position: absolute;
     width: 100%;
     min-width: 300px;
-    height: calc(75vh - 5rem);
+    height: calc(500px - 5rem);
     min-height: 300px;
     top: 5rem;
     left: -100%;
@@ -92,7 +92,7 @@ nav a:hover:after {
     font-size: 3rem;
     font-weight: 700;
     list-style: none;
-    padding: 2vh 0rem;
+    padding: 0.75vh 0rem;
   }
 
   .burger {
@@ -103,8 +103,9 @@ nav a:hover:after {
 
   @media (max-width: 500px) {
     ul {
+      height: calc(400px - 5rem);
       min-width: 300px;
-      min-height: calc(400px - 5rem);
+      min-height: 300px;
     }
     li {
       font-size: 2.5rem;
