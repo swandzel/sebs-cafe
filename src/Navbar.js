@@ -35,25 +35,5 @@ function Navbar() {
     </nav>
   );
 }
-//  {
-
-//   <Link to="/">
-//   <li>Home</li>
-//   </Link>
-//   <Link to="/onas">
-//   <li>O Nas</li>
-//   </Link>
-//   <Link to="/naszemenu">
-//   <li>Nasze Menu</li>
-//   </Link>
-//   <Link to="/zarezerwujstolik">
-//   <li>Zarezerwuj stolik</li>
-//   </Link>
-//   <Link to="/kontakt">
-//   <li>Kontakt</li>
-// </Link>
-//   }
-// );
-// }
 
 export default Navbar;

@@ -15,6 +15,7 @@
 .onas-container .photos {
   flex: 1;
   min-height: 30rem;
+  width: 100%;
   margin-right: 2.5rem;
 }
 
@@ -86,7 +87,6 @@
     margin-bottom: 2rem;
   }
   .onas-container .photos {
-    min-height: 30rem;
     margin: 0 0 4rem 0;
   }
 

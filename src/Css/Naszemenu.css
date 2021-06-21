@@ -64,3 +64,15 @@ p {
     width: 80%;
   }
 }
+
+@media (max-width: 450px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 330px) {
+  p {
+    font-size: 1.25rem;
+  }
+}

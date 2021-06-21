@@ -27,7 +27,7 @@ body {
   color: var(--secondary);
   font-size: 4rem;
   text-align: center;
-  padding: 2rem 0rem 2rem 0rem;
+  padding: 2rem 2rem;
 }
 
 @media (max-width: 600px) {
@@ -38,7 +38,6 @@ body {
   @media (max-width: 500px) {
     .h1-main {
       font-size: 3rem;
-      padding: 2rem 1rem;
     }
   }
 }

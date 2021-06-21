@@ -28,7 +28,7 @@ function Home() {
             <div className="container">
               <div className="home-cards home-atmosphere">
                 <h1>ATMOSFERA</h1>
-                <p>Odwiedź miejsce spotkań fascynatów kawy</p>
+                <p>Miejsce spotkań fascynatów kawy</p>
               </div>
             </div>
           </div>

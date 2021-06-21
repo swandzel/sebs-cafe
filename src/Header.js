@@ -14,7 +14,7 @@ function Header(props) {
     <div className="header-container" style={bgStyle}>
       <div className="layer">
         <div className="header">
-          <div className="title">Seb's Cafe</div>
+          <div className="title">Seb's&nbsp;Cafe</div>
           <div className="sub-title">{props.about}</div>
         </div>
       </div>
