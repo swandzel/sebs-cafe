@@ -54,7 +54,9 @@ function Onas() {
             <p>
               Godziny otwarcia
               <br />
-              Pon-Czw: 8 - 18 Pt-Ndz: 8 - 22
+              Pon-Czw: 8 - 18
+              <br />
+              Pt-Ndz: 8 - 22
             </p>
           </div>
           <div className="photos">

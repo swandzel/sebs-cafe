@@ -3,7 +3,6 @@ footer {
   background-color: var(--secondary);
   color: var(--primary);
   height: 32vh;
-  min-height: 500px;
   min-width: 300px;
   justify-content: space-around;
   align-items: center;
@@ -39,6 +38,7 @@ footer p {
     flex-direction: column;
     justify-content: center;
     padding: 2rem 0rem;
+    min-height: 500px;
   }
 
   footer > div {

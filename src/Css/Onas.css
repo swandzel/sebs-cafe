@@ -114,4 +114,12 @@
     text-align: left;
     padding: 0rem 2rem 1.5rem 2rem;
   }
+
+  .onas-container .photos {
+    min-height: 10rem;
+  }
+
+  .onas-container-second .photos {
+    min-height: 10rem;
+  }
 }
