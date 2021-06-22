@@ -7,7 +7,6 @@ function Header(props) {
     backgroundPosition: "center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
-    backgroundAttachment: "fixed",
   };
 
   return (
